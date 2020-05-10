@@ -12,15 +12,20 @@ public class Main2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout);
-        Button button1= (Button) findViewById(R.id.homework_btn1);
-        Button button2=(Button)findViewById(R.id.homework_btn2);
-        Button button3=(Button)findViewById(R.id.homework_btn3);
-        Button button4=(Button)findViewById(R.id.homework_btn4);
-        Button button5=(Button)findViewById(R.id.homework_btn5);
+
     }
     public void startMain(View view){
         //界面跳转
         Intent intent=new Intent(this,HomeworkActivity1.class);
+        startActivity(intent);
+    }
+    public void startMain2(View view){
+        Intent intent=new Intent(this,HomeworkActivity2.class);
+        startActivity(intent);
+    }
+
+    public void startMain3(View view){
+        Intent intent=new Intent(this,HomeworkActivity3.class);
         startActivity(intent);
     }
 }

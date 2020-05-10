@@ -22,16 +22,5 @@
         android:onClick="startMain3"
         android:id="@+id/homework_btn3"
         android:layout_height="wrap_content" />
-    <Button
-        android:layout_width="wrap_content"
-        android:text="作业四"
-        android:onClick="startMain4"
-        android:id="@+id/homework_btn4"
-        android:layout_height="wrap_content" />
-    <Button
-        android:layout_width="wrap_content"
-        android:text="作业五"
-        android:onClick="startMain5"
-        android:id="@+id/homework_btn5"
-        android:layout_height="wrap_content" />
+
 </LinearLayout>
